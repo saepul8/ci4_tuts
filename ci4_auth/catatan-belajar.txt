@@ -1,0 +1,27 @@
+Rendering Template/Templating/Layouting Bootstrap Template ke CodeIgniter 4
+dengan Helper
+===
+1. Download dulu CodeIgniter 4
+
+2. Di Install
+2.1. Diekstract, ditaruh di docroot/ htdocs, rename jadi ci4_layouting
+2.2. Ubah hak akses folder jadi 755
+2.2. Copy index.php dari /public/ ke docroot
+2.3. Update path di index.php /
+
+3. CI 4 (prod, devel, testing) -> ubah ke development
+3.1. ubah di env, 
+3.2. atau, munculin error di production
+3.3. Ubah writable ke 777
+3.4 update base url
+
+4. Download admin lte, assetnya dimasukin ke public/adminlte
+5. Bikin folder views/_layouts, diisi dengan htmlnya admin lte, dan update assets path nya
+6. Potong atau pindah main content di laout ke view/home.php
+7. bikin helper di Helpers
+8. Helpernya di load
+9. dipake di controllernya
+10. echo content di _layout/layout.php
+
+
+
